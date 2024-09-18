@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <title>Document</title>
+    <style>
+        
+        body {
+            font-family: 'Sofia';font-size: 22px;
+        }
+
+        div {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color: blue;
+  box-shadow: 10px 10px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+    </style>
+</head>
+<body>
+
+    <!-- Use of fonts -->
+    <h1>Sofia</h1>
+<p>This activity is due in an hour.</p>
+
+<!--Use of box show-->
+<h1>The box-shadow Property</h1>
+<div>This is a div element with a box-shadow</div>
+
+<!--Use of flexbox-->
+<h1>Flexbox</h1>
+
+<div class="flex-container">
+  <div>A</div>
+  <div>B</div>
+  <div>C</div>  
+</div>
+<br>
+<!-- Use of pseudo-selector-->
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+</body>
+</html>
